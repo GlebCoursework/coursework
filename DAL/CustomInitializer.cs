@@ -5,7 +5,7 @@ namespace DAL
 {
     internal class CustomInitializer<T> : DropCreateDatabaseIfModelChanges<Dealer>
     {
-        protected override void Seed(Dealer context)
+        protected override void Seed(Dealer context) // створення дефолтних класів з просеченими полями
         {
             User user = new User() { Login = "aaa", Password = "aaa", Ballance = 100000 };
             context.Users.Add(user);

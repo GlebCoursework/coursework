@@ -11,7 +11,7 @@ namespace BLL
 {
     public class MethodsBLL
     {
-        private readonly Methods _dal = new Methods();
+        private readonly Methods _dal = new Methods(); //створюємо екземпляр DAL
 
         public UserDTO ValidateUser(string login, string password)
         {

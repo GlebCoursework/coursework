@@ -9,7 +9,8 @@ namespace DAL
 {
     public class Methods
     {
-        private readonly Dealer _ctx = new Dealer();
+        private readonly Dealer _ctx = new Dealer(); //створюємо екземпляр бази данних
+        //створення методів для роботи з данними класів
 
         public User ValidateUser(string login, string password)
         {

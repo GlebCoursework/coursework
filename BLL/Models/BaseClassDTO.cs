@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Models
 {
-    public abstract class BaseClassDTO
+    public abstract class BaseClassDTO //батьківський класс з основними полями на які ссилаються інші класу, в якому данні конвертуються з DAL в BLL
     {
         public int Id { get; set; }
         public string Name { get; set; }

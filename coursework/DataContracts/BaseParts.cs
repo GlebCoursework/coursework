@@ -11,7 +11,7 @@ namespace coursework.DataContracts
     [KnownType(typeof(Gearbox))]
     [KnownType(typeof(Interior))]
     [KnownType(typeof(Exterior))]
-    public class BaseParts
+    public class BaseParts //батьківський класс з основними полями на які ссилаються інші класу, в якому данні конвертуються з BLL в WCF
     {
         [DataMember]
         public int Id { get; set; }

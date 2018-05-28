@@ -7,7 +7,7 @@ namespace DAL
 
     public class Dealer : DbContext
     {
-        public Dealer()
+        public Dealer() //створюємо таблиці в базі данних
             : base("name=Dealer")
         {
             Database.SetInitializer<Dealer>(new CustomInitializer<Dealer>());

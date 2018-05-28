@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    public class Car
+    public class Car //модель класу машина з основними полями
     {
         public int Id { get; set; }
         public string Name { get; set; }
